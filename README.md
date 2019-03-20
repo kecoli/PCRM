@@ -1,5 +1,5 @@
 # mpo
-Companion to Modern Portfolio Optimization with R, 2nd Edition
+Companion to PCRM
 
 Please update to latest R, R-3.4.4 (as of March 2018) 
 
@@ -13,7 +13,7 @@ library(devtools)
 
 install_version("devtools", version = "1.13.6", repos = "http://cran.us.r-project.org")
 
-install_github('kecoli/mpo')
+install_github('kecoli/PCRM')
 
 runExample("portOpt")
 
