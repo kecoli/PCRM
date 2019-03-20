@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>mpo_github</name>
+	<name>PCRM</name>
 	<comment></comment>
 	<projects>
 	</projects>
@@ -19,7 +19,7 @@
 	<natures>
 		<nature>de.walware.statet.base.StatetNature</nature>
 		<nature>de.walware.statet.r.RNature</nature>
-		<nature>de.walware.statet.r.RPkgNature</nature>
 		<nature>de.walware.docmlet.wikitext.natures.Wikitext</nature>
+		<nature>de.walware.statet.r.RPkgNature</nature>
 	</natures>
 </projectDescription>
