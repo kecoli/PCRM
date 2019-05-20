@@ -179,11 +179,11 @@ mathEfrontCashRisky <-
 # Compute cash and risky assets weights and barplot
 	wts.risky = (sum(a)/b)*muvalse
 	wts.cash = 1 - wts.risky
-	wts.efront = rbind(wts.cash,wts.risky)
-	row.names(wts.efront) = c("Cash","Risky Assets")
+	wts.efront = rbind(muvals,sigmavals,wts.cash,wts.risky)
+	row.names(wts.efront) = c("MU","VOL","Cash","Risky Assets")
 	if(wts.plot)
 	{barplot.wts(wts.efront,legend.text = T,col = topo.colors(2),ylab = "Weights",
-				xlab = xlab,bar.ylim = bar.ylim);par(mfrow=c(1,1))}
+				xlab = "VOL",bar.ylim = bar.ylim);par(mfrow=c(1,1))}
 	if(is.null(digits))
 	{if(!risk.tol) {wts.efront}}
 	else
