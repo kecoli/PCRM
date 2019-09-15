@@ -34,9 +34,7 @@ col= setdiff(names(IRdaily),"date")
 deltaIRdaily = IRdaily[,lapply(.SD,diff),.SDcols=col]
 
 
-deltaIRweekly = IRdaily[weekdays(date)=="Wednesday",lapply(.SD,diff),.SDcols=col]
-
-IRweekly = IRdaily[months(date)=="Wednesday"]
+IRweekly = IRdaily[weekdays(date)=="Wednesday"]
 
 deltaIRweekly = IRweekly[,lapply(.SD,diff),.SDcols=col]
 
