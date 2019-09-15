@@ -1,4 +1,3 @@
-# mpo
 Companion to PCRM
 
 Please update to latest R, R-3.4.4 (as of March 2018) 
