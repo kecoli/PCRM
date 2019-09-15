@@ -3,13 +3,13 @@
 # Author: klei
 ###############################################################################
 
-install.packages("fredr")
+#install.packages("fredr")
 
 library(dplyr)
 library(data.table)
 library(fredr)
 library(purrr)
-library(lubridate)
+#library(lubridate)
 
 fredr_set_key("caf71401e549e0570139e5188af2e40b")
 map_dfr(c("UNRATE", "FEDFUNDS"), fredr)
