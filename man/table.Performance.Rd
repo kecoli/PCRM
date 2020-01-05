@@ -4,11 +4,21 @@
 \alias{table.Performance}
 \title{Generate general performance table for returns}
 \usage{
-table.Performance(R, metrics = NULL, metricsNames = NULL,
-  verbose = FALSE, interactive = TRUE, arg.list = NULL, digits = 4,
-  latex = FALSE, exportFun = NULL, exportXLS = FALSE,
-  ExcelFileName = "PerformanceReport.xls", flag.pre.arg.list = FALSE,
-  ...)
+table.Performance(
+  R,
+  metrics = NULL,
+  metricsNames = NULL,
+  verbose = FALSE,
+  interactive = TRUE,
+  arg.list = NULL,
+  digits = 4,
+  latex = FALSE,
+  exportFun = NULL,
+  exportXLS = FALSE,
+  ExcelFileName = "PerformanceReport.xls",
+  flag.pre.arg.list = FALSE,
+  ...
+)
 }
 \arguments{
 \item{R}{an xts, vector, matrix, data frame, timeSeries or zoo object of

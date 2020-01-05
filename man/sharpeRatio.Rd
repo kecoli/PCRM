@@ -6,9 +6,17 @@
 \title{calculate a traditional or modified Sharpe Ratio of Return over StdDev or
 VaR or ES, accompanied with bootstrap of standard error.}
 \usage{
-sharpeRatio(R, Rf = 0, p = 0.95, method = c("StdDev", "VaR", "ES"),
-  weights = NULL, annualize = FALSE, bootsd = FALSE,
-  geometric = FALSE, ...)
+sharpeRatio(
+  R,
+  Rf = 0,
+  p = 0.95,
+  method = c("StdDev", "VaR", "ES"),
+  weights = NULL,
+  annualize = FALSE,
+  bootsd = FALSE,
+  geometric = FALSE,
+  ...
+)
 }
 \arguments{
 \item{R}{an xts, vector, matrix, data frame, timeSeries or zoo object of
