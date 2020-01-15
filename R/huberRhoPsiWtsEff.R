@@ -71,3 +71,21 @@ constFromEffHuber <- function(eff, interval = c(1e-6, 3))
   
   uniroot(obj, interval = interval, e = eff, check.conv = TRUE, tol = 1e-8)$root
 }
+
+
+
+#' Psi Hard Rejection
+#' @param x
+#' @param cc
+#' @author Kirk Li  \email{kirkli@@stat.washington.edu} 
+#' @seealso \code{\link{}}
+#' @keywords huber
+#' @examples
+#' @export
+psiHardRej = function(x,cc = 2.5)
+{psi = ifelse(abs(x/cc) < 1, x, 0)
+	return(psi)
+}
+
+
+
