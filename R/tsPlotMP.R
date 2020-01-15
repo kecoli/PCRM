@@ -39,7 +39,7 @@
 
 # Lattice type time series plotting function
 
-tsPlotMP = function (data, add.grid = FALSE, layout = NULL, type = "l", yname = "RETURNS (%)", 
+tsPlotMP = function (ret, add.grid = FALSE, layout = NULL, type = "l", yname = "RETURNS (%)", 
                       Pct = F, scaleType = "free", stripLeft = TRUE, main = NULL, lwd = 1, 
                       stripText.cex = 1, axis.cex = 1, color = "black", zeroLine = TRUE) 
 {
@@ -62,8 +62,8 @@ tsPlotMP = function (data, add.grid = FALSE, layout = NULL, type = "l", yname = 
       panel.xyplot(...)
     }
   }
-  if(Pct) data = data*100
-  pl = xyplot(data, par.strip.text = list(cex = stripText.cex), 
+  if(Pct) ret = ret*100
+  pl = xyplot(ret, par.strip.text = list(cex = stripText.cex), 
               type = type, xlab = "", ylab = list(label = yname, cex = stripText.cex), 
               lwd = lwd, scales = list(y = list(cex = axis.cex, relation = scaleType, 
                                                 rot = 0), x = list(cex = axis.cex)), layout = layout, 
