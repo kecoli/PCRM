@@ -14,7 +14,8 @@
 #' @return
 #' 
 #' @details The robust EWMA mean algorithm has the form 
-#' \hat{\mu}_t = \hat{\mu}_{t-1} + (1-\lambda)\hat{\sigma}_{t-1}\psi_{\texttt{hub}}\left(\frac{x_t-\hat{\mu}_{t-1}}{\hat{\sigma}_{t-1}}\right)
+#' \deqn{\hat{\mu}_t = \hat{\mu}_{t-1} + (1-\lambda)\hat{\sigma}_{t-1}\psi_{\texttt{hub}}
+#' \left(\frac{x_t-\hat{\mu}_{t-1}}{\hat{\sigma}_{t-1}}\right)}
 #'
 #' @examples
 #' @export
