@@ -46,5 +46,8 @@ Exponential Weighted Moving Average (EWMA) Mean Volitility
 }
 \details{
 The robust EWMA mean algorithm has the form 
-\hat{\mu}_t = \hat{\mu}_{t-1} + (1-\lambda)\hat{\sigma}_{t-1}\psi_{\texttt{hub}}\left(\frac{x_t-\hat{\mu}_{t-1}}{\hat{\sigma}_{t-1}}\right)
+\ifelse{html}{\out{
+<center href="https://www.codecogs.com/eqnedit.php?latex=\hat{\mu}_t&space;=&space;\hat{\mu}_{t-1}&space;&plus;&space;(1-\lambda)\hat{\sigma}_{t-1}\psi_{\texttt{hub}}&space;\left(\frac{x_t-\hat{\mu}_{t-1}}{\hat{\sigma}_{t-1}}\right)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\hat{\mu}_t&space;=&space;\hat{\mu}_{t-1}&space;&plus;&space;(1-\lambda)\hat{\sigma}_{t-1}\psi_{\texttt{hub}}&space;\left(\frac{x_t-\hat{\mu}_{t-1}}{\hat{\sigma}_{t-1}}\right)" title="\hat{\mu}_t = \hat{\mu}_{t-1} + (1-\lambda)\hat{\sigma}_{t-1}\psi_{\texttt{hub}} \left(\frac{x_t-\hat{\mu}_{t-1}}{\hat{\sigma}_{t-1}}\right)" /></center>
 }
+}
+

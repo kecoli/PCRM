@@ -14,11 +14,13 @@
 #' @return
 #' 
 #' @details The robust EWMA mean algorithm has the form 
-#' \deqn{\hat{\mu}_t = \hat{\mu}_{t-1} + (1-\lambda)\hat{\sigma}_{t-1}\psi_{\texttt{hub}}
-#' \left(\frac{x_t-\hat{\mu}_{t-1}}{\hat{\sigma}_{t-1}}\right)}
+#\hat{\mu}_t = \hat{\mu}_{t-1} + (1-\lambda)\hat{\sigma}_{t-1}\psi_{\texttt{hub}}
+#\left(\frac{x_t-\hat{\mu}_{t-1}}{\hat{\sigma}_{t-1}}\right)
 #'
 #' @examples
 #' @export
+
+
 ewmaMeanVol <- function(x,nstart = 10,robMean = T,robVol = T,cc = 2.5,
                         lambdaMean = 0.9,lambdaVol = 0.9, Dyn = F,
                         lambdaMeanDyn = 0.7,lambdaVolDyn = 0.7)
