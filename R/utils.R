@@ -5,8 +5,6 @@
 #
 #
 #roxygen2::roxygenise("C:/Dropbox/doug/MPO/mpo/pkg")
-
-
 cbind.na <-
 		function (..., deparse.level = 1) 
 {

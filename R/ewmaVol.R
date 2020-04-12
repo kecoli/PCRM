@@ -7,9 +7,9 @@
 #' @param lambda 
 #'
 #' @return
-#' @export
 #'
 #' @examples
+#' @export
 ewmaVol <- function(x,nstart = 10,robVol = T,cc = 2.5,lambda = 0.9)
 {
   n <- length(x)

@@ -2,7 +2,6 @@
 # 
 # Author: cocok
 ###############################################################################
-
 library(xtable)
 library(data.table)
 
@@ -62,11 +61,10 @@ output1$varRet = output$varRet
 
 output1 = output1[,c('r1','r2','r3','lnr1','lnr2','lnr3','avgRet','avgLnRet','pedG','varRet','gappGood','gappSimple'),with=F]
 
-
 x = xtable(output1,
 		caption = "Properties of Portfolios and Their Returns\\label{tab:PPR}",
 		label = "tab:PPR")
-print(x, caption.placement = "top",include.rownames = F)
+#print(x, caption.placement = "top",include.rownames = F)
 
 
 
