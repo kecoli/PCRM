@@ -1,3 +1,11 @@
+#' plotLSandRobustVHI
+#'
+#' @param x 
+#'
+#' @return
+#' @export
+#'
+#' @examples
 plotLSandRobustVHI = function(x)
 {
 ret = x

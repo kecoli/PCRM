@@ -1,3 +1,11 @@
+#' plotLSandRobustDD
+#'
+#' @param x 
+#'
+#' @return
+#' @export
+#'
+#' @examples
 plotLSandRobustDD = function(x)
 {
 ret = retDD

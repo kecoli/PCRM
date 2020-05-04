@@ -44,7 +44,7 @@
 #'     }
 #'     output
 #'   }
-#' 
+#' @export
 opt.outputMeanVolWts = function(opt,returns,digits = NULL,names = NULL)
 {
 wts = opt$weights

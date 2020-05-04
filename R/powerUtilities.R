@@ -1,3 +1,9 @@
+#' powerUtilities
+#'
+#' @return
+#' @export
+#'
+#' @examples
 powerUtilities = function()
 {
   x = seq(.01,3,.01)

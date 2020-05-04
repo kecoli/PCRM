@@ -9,7 +9,7 @@
 #' data(midcap.ts)
 #' returns = midcap.ts[, 1:10]
 #' mathGmv(returns)
-#' 
+#' @export
 mathGmv <-
 		function(returns,digits = NULL)
 {
@@ -31,7 +31,18 @@ mathGmv <-
 	out
 }
 
-
+#' Global Minimum Variance (GMV) Portfolio
+#' 
+#' Compute the weights, mean return and volatility of a GMV portfolio.
+#' 
+#' 
+#' @param returns matrix of asset returns
+#' @param digits integer indicating the number of decimal places
+#' @examples
+#' data(midcap.ts)
+#' returns = midcap.ts[, 1:10]
+#' mathGmv(returns)
+#' @export
 mathGmvMuCov <- function(muRet,volRet,corrRet, digits = 3) 
 {
 	covRet = diag(volRet)%*%corrRet%*%diag(volRet)

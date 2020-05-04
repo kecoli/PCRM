@@ -1,3 +1,21 @@
+#' chart.Efront
+#'
+#' @param returns 
+#' @param pspec 
+#' @param firstEfront 
+#' @param gmv 
+#' @param maxSR 
+#' @param rf 
+#' @param xlim 
+#' @param ylim 
+#' @param xlab 
+#' @param ylab 
+#' @param n.portfolios 
+#'
+#' @return
+#' @export
+#'
+#' @examples
 chart.Efront <- function(returns,pspec,firstEfront = T,gmv = T, maxSR = T,rf = 0,xlim = NULL,
                          ylim = NULL, xlab = NULL, ylab = NULL, n.portfolios = 10)
 {

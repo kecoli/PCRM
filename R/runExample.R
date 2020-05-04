@@ -1,7 +1,11 @@
-# TODO: Add comment
-# 
-# Author: klei
-###############################################################################
+#' runExample
+#'
+#' @param example 
+#'
+#' @return
+#' @export
+#'
+#' @examples
 runExample <- function(example) {
 	# locate all the shiny app examples that exist
 	validExamples <- list.files(system.file("shiny-examples", package = "mpo"))

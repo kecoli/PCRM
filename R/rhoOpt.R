@@ -1,3 +1,12 @@
+#' rhoOpt
+#'
+#' @param r 
+#' @param c 
+#'
+#' @return
+#' @export
+#'
+#' @examples
 rhoOpt = function(r,c)
 {
   n = length(r)

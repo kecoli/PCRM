@@ -1,3 +1,15 @@
+#' opt.outputMvo
+#'
+#' @param opt 
+#' @param returns 
+#' @param digits 
+#' @param names 
+#' @param rf 
+#'
+#' @return
+#' @export
+#'
+#' @examples
 opt.outputMvo <-
 function(opt,returns,digits = NULL,names = NULL,rf = 0)
 {

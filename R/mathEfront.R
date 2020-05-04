@@ -1,3 +1,21 @@
+#' mathEfront
+#'
+#' @param returns 
+#' @param mu.max 
+#' @param sigma.max 
+#' @param rf 
+#' @param rf.line 
+#' @param stocks 
+#' @param stock.names 
+#' @param values 
+#' @param identify.stock.names 
+#' @param npoints 
+#' @param digits 
+#'
+#' @return
+#' @export
+#'
+#' @examples
 mathEfront = function(returns, mu.max=NULL, sigma.max=NULL, rf=0.005, rf.line=T, stocks=T,
       stock.names = T, values = T, identify.stock.names = F, npoints = 100, digits = NULL)
 {

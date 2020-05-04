@@ -1,3 +1,12 @@
+#' psiOpt
+#'
+#' @param r 
+#' @param c 
+#'
+#' @return
+#' @export
+#'
+#' @examples
 psiOpt = function(r,c)
 {
   n = length(r)
