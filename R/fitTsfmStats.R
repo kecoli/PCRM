@@ -1,3 +1,14 @@
+#' fitTsfmStats
+#'
+#' @param x 
+#' @param rsq 
+#' @param digits 
+#' @param show.signif.stars 
+#'
+#' @return
+#' @export
+#'
+#' @examples
 fitTsfmStats = function(x,rsq = F,digits = 3, show.signif.stars=TRUE) {
   fitSum = summary(x)
   out = data.frame(fitSum$sum.list[[1]]$coefficients)

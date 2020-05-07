@@ -1,3 +1,18 @@
+#' turnoverOpt
+#'
+#' @param returns 
+#' @param mu.target 
+#' @param wts.initial 
+#' @param toc 
+#' @param long.only 
+#' @param printD 
+#' @param printA 
+#' @param printout 
+#'
+#' @return
+#' @export
+#'
+#' @examples
 turnoverOpt <- function(returns,mu.target = NULL,wts.initial,toc,
                 long.only = TRUE,printD = F,printA = F,printout = T){
   nassets <- ncol(returns)

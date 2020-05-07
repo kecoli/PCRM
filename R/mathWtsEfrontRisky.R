@@ -41,6 +41,21 @@ mathWtsEfrontRisky <-
 	out
 }
 
+#' mathWtsEfrontRiskyMuCov
+#'
+#' @param muRet 
+#' @param volRet 
+#' @param corrRet 
+#' @param mu.efront 
+#' @param efront.only 
+#' @param display.wts 
+#' @param npoints 
+#' @param digits 
+#'
+#' @return
+#' @export
+#'
+#' @examples
 mathWtsEfrontRiskyMuCov <- function (muRet,volRet,corrRet,mu.efront,efront.only = T,
 		display.wts = T, npoints = 5, digits = NULL) 
 {

@@ -1,3 +1,12 @@
+#' wtsOpt
+#'
+#' @param r 
+#' @param c 
+#'
+#' @return
+#' @export
+#'
+#' @examples
 wtsOpt = function(r,c)
 {
   n = length(r)

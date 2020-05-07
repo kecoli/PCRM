@@ -1,6 +1,13 @@
-
-
-
+#' turnOver
+#'
+#' @param wts 
+#' @param wtsInit 
+#' @param digits 
+#'
+#' @return
+#' @export
+#'
+#' @examples
 turnOver = function(wts,wtsInit = NULL,digits = NULL)
 {
 if(is.null(wtsInit)) {

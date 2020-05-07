@@ -1,6 +1,11 @@
-# DIV is the function to calculate the diversification index
-# for a set of portfolio weights. DIV is one minus the HHI index.
-
+#' DIV is the function to calculate the diversification index for a set of portfolio weights. DIV is one minus the HHI index.
+#'
+#' @param weights 
+#'
+#' @return
+#' @export
+#'
+#' @examples
 DIV = function(weights){
   n.dates=nrow(weights)
   if(n.dates<1){

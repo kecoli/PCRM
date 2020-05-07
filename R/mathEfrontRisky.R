@@ -57,6 +57,20 @@ mathEfrontRisky <-
 }
 
 
+#' mathEfrontRiskyMuCov
+#'
+#' @param muRet 
+#' @param volRet 
+#' @param corrRet 
+#' @param npoints 
+#' @param display 
+#' @param efront.only 
+#' @param digits 
+#'
+#' @return
+#' @export
+#'
+#' @examples
 mathEfrontRiskyMuCov <- function(muRet,volRet,corrRet, npoints = 100,display = T,
 		efront.only = T, digits = NULL) 
 {

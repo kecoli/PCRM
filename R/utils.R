@@ -2,9 +2,15 @@
 # 
 # Author: klei
 ###############################################################################
-#
-#
-#roxygen2::roxygenise("C:/Dropbox/doug/MPO/mpo/pkg")
+#' cbind.na
+#'
+#' @param ... 
+#' @param deparse.level 
+#'
+#' @return
+#' @export
+#'
+#' @examples
 cbind.na <-
 		function (..., deparse.level = 1) 
 {

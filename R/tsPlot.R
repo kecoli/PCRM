@@ -1,3 +1,13 @@
+#' tsPlot
+#'
+#' @param ret 
+#' @param add.grid 
+#' @param cex 
+#'
+#' @return
+#' @export
+#'
+#' @examples
 tsPlot = function(ret,add.grid = T,cex = 1.0)
 {
   if(add.grid) {type = c("l","g")} else

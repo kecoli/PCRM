@@ -2,10 +2,16 @@
 # 
 # Author: klei
 ###############################################################################
-
-
-# NORMALIZED (DEFAULT) AND NON-NORMALIZED ETL
-
+#' NORMALIZED (DEFAULT) AND NON-NORMALIZED ETL
+#'
+#' @param R 
+#' @param alpha 
+#' @param normalize 
+#'
+#' @return
+#' @export
+#'
+#' @examples
 etl = function(R, alpha = 0.05, normalize = TRUE)
 {
 	ret = coredata(R)
@@ -18,8 +24,17 @@ etl = function(R, alpha = 0.05, normalize = TRUE)
 }
 
 
-# NORMALIZED (DEFAULT) AND NON-NORMALIZED STARR
-
+#' NORMALIZED (DEFAULT) AND NON-NORMALIZED STARR
+#'
+#' @param R 
+#' @param alpha 
+#' @param normalize 
+#' @param Rf 
+#'
+#' @return
+#' @export
+#'
+#' @examples
 starrRatio = function(R, alpha = .05, normalize=TRUE, Rf=0)
 {
 	ret = coredata(R)

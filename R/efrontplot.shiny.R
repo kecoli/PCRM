@@ -2,6 +2,17 @@
 # 
 # Author: kirkli
 ###############################################################################
+#' efrontplot.shiny
+#'
+#' @param files 
+#' @param group 
+#' @param list.cset 
+#' @param list.arg 
+#'
+#' @return
+#' @export
+#'
+#' @examples
 efrontplot.shiny <- function(files, group,list.cset, list.arg){
 #	load("crsp.short.Rdata")
 	stock.use = names(files)

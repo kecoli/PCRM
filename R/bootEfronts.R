@@ -1,3 +1,24 @@
+#' bootEfronts
+#'
+#' @param returns 
+#' @param pspec 
+#' @param rf 
+#' @param npoints 
+#' @param B 
+#' @param Seed 
+#' @param gmv 
+#' @param maxSR 
+#' @param xlim 
+#' @param ylim 
+#' @param k.sigma 
+#' @param k.mu 
+#' @param digits 
+#' @param figTitle 
+#'
+#' @return
+#' @export
+#'
+#' @examples
 bootEfronts = function(returns,pspec, rf=.03, npoints=20, B = 3, Seed = NULL, gmv=T, maxSR=F,
                        xlim  = NULL, ylim = NULL, k.sigma = 2, k.mu = 2, digits = 4, figTitle = NULL)
 {
