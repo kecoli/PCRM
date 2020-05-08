@@ -30,7 +30,7 @@ mathWtsEfrontRisky <-
 	wts.efront = a1 + a2
 	MU.EFRONT = mu.efront
 	VOL.EFRONT = (1/cc + (cc/d) * (mu.efront - a/cc)^2)^0.5
-	if(display.wts) {barplot.wts(wts.efront,legend.text = paste("PORT",1:n,sep=""), col = topo.colors(10),ylab = "WEIGHTS",
+	if(display.wts) {barplotWts(wts.efront,legend.text = paste("PORT",1:n,sep=""), col = topo.colors(10),ylab = "WEIGHTS",
 				xlab = "VOL",bar.ylim = c(-2,6))}
 	if(is.null(digits))
 	{out = list(mu = MU.EFRONT,vol = VOL.EFRONT,wts = wts.efront)}
@@ -85,7 +85,7 @@ mathWtsEfrontRiskyMuCov <- function (muRet,volRet,corrRet,mu.efront,efront.only 
 	if (display.wts) {
 #		wtsMat = as.matrix(wts.efront)
 #		dimnames(wtsMat)[[2]] = paste("P",sep = "",1:npoints)
-		barplot.wts(as.matrix(out), legend.text = T, col = topo.colors(10), 
+		barplotWts(as.matrix(out), legend.text = T, col = topo.colors(10), 
 				ylab = "WEIGHTS", xlab = "VOL")
 	}
 	if(is.null(digits)) {out} else

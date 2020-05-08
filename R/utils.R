@@ -12,7 +12,7 @@
 #'
 #' @examples
 cbind.na <-
-		function () 
+		function (..., deparse.level = 1) 
 {
 	na <- nargs() - (!missing(deparse.level))
 	deparse.level <- as.integer(deparse.level)

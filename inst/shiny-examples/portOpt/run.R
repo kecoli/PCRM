@@ -28,7 +28,7 @@ library(xts)
 source("constraint.sets.r")
 source("mvo.constrained.r")
 source("efront.constrained.r")
-source("barplot.wts.r")
+source("barplotWts.r")
 source("efrontplot.shiny.2014.r")
 # ##
 # load("crsp.short.Rdata")
