@@ -4,7 +4,7 @@
 \alias{cbind.na}
 \title{cbind.na}
 \usage{
-\method{cbind}{na}()
+\method{cbind}{na}(..., deparse.level = 1)
 }
 \arguments{
 \item{...}{}

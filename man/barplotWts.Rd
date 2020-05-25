@@ -10,7 +10,8 @@ barplotWts(
   col = NULL,
   ylab = NULL,
   xlab = c("MU", "VOL"),
-  bar.ylim = NULL
+  bar.ylim = NULL,
+  ...
 )
 }
 \arguments{
