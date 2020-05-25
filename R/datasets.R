@@ -242,7 +242,13 @@ NULL
 #' @usage data("brkMonthlyBloomberg")
 NULL
 
-
+#' @name smallGrowth
+#' @title TBA
+#' @description TBA
+#' @docType data
+#' @source TBA
+#' @usage data("smallGrowth")
+NULL
 
 
 
