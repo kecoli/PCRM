@@ -4,19 +4,9 @@
 \alias{mathEfront}
 \title{mathEfront}
 \usage{
-mathEfront(
-  returns,
-  mu.max = NULL,
-  sigma.max = NULL,
-  rf = 0.005,
-  rf.line = T,
-  stocks = T,
-  stock.names = T,
-  values = T,
-  identify.stock.names = F,
-  npoints = 100,
-  digits = NULL
-)
+mathEfront(returns, mu.max = NULL, sigma.max = NULL, rf = 0.005,
+  rf.line = T, stocks = T, stock.names = T, values = T,
+  identify.stock.names = F, npoints = 100, digits = NULL)
 }
 \arguments{
 \item{returns}{}
@@ -40,9 +30,6 @@ mathEfront(
 \item{npoints}{}
 
 \item{digits}{}
-}
-\value{
-
 }
 \description{
 mathEfront

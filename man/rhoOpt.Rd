@@ -11,9 +11,6 @@ rhoOpt(r, c)
 
 \item{c}{}
 }
-\value{
-
-}
 \description{
 rhoOpt
 }

@@ -4,22 +4,9 @@
 \alias{bootEfronts}
 \title{bootEfronts}
 \usage{
-bootEfronts(
-  returns,
-  pspec,
-  rf = 0.03,
-  npoints = 20,
-  B = 3,
-  Seed = NULL,
-  gmv = T,
-  maxSR = F,
-  xlim = NULL,
-  ylim = NULL,
-  k.sigma = 2,
-  k.mu = 2,
-  digits = 4,
-  figTitle = NULL
-)
+bootEfronts(returns, pspec, rf = 0.03, npoints = 20, B = 3,
+  Seed = NULL, gmv = T, maxSR = F, xlim = NULL, ylim = NULL,
+  k.sigma = 2, k.mu = 2, digits = 4, figTitle = NULL)
 }
 \arguments{
 \item{returns}{}
@@ -49,9 +36,6 @@ bootEfronts(
 \item{digits}{}
 
 \item{figTitle}{}
-}
-\value{
-
 }
 \description{
 bootEfronts

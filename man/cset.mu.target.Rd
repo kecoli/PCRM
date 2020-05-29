@@ -10,19 +10,15 @@ cset.mu.target(returns, mu.target)
 Constraint specifications
 }
 \seealso{
-Other constraints: 
-\code{\link{combine.cset}()},
-\code{\link{cset.box}()},
-\code{\link{cset.fixed}()},
-\code{\link{cset.groups}()},
-\code{\link{cset.lo}()},
-\code{\link{cset.propcost}()},
-\code{\link{cset.sum}()},
-\code{\link{cset.turnover.hobbs}()},
-\code{\link{cset.turnover}()},
-\code{\link{propcost.modify}()},
-\code{\link{turnover.hobbs.modify}()},
-\code{\link{turnover.modify}()}
+Other constraints: \code{\link{combine.cset}},
+  \code{\link{cset.box}}, \code{\link{cset.fixed}},
+  \code{\link{cset.groups}}, \code{\link{cset.lo}},
+  \code{\link{cset.propcost}}, \code{\link{cset.sum}},
+  \code{\link{cset.turnover.hobbs}},
+  \code{\link{cset.turnover}},
+  \code{\link{propcost.modify}},
+  \code{\link{turnover.hobbs.modify}},
+  \code{\link{turnover.modify}}
 }
 \author{
 Kirk Li  \email{kirkli@stat.washington.edu}

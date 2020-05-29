@@ -4,32 +4,25 @@
 \alias{combine.cset}
 \title{Constraint specifications}
 \usage{
-combine.cset(
-  clist = c("sum", "lo", "box", "groups", "mu.target", "turnover.hobbs", "turnover",
-    "propcost"),
-  returns = returns,
-  list.arg = list(sum = NULL, mu.target = NULL, w.initial = NULL, toc = NULL, upper =
-    NULL, lower = NULL, group = NULL, upper.group = NULL, lower.group = NULL, ptc = NULL),
-  verbose = T
-)
+combine.cset(clist = c("sum", "lo", "box", "groups", "mu.target",
+  "turnover.hobbs", "turnover", "propcost"), returns = returns,
+  list.arg = list(sum = NULL, mu.target = NULL, w.initial = NULL, toc =
+  NULL, upper = NULL, lower = NULL, group = NULL, upper.group = NULL,
+  lower.group = NULL, ptc = NULL), verbose = T)
 }
 \description{
 Constraint specifications
 }
 \seealso{
-Other constraints: 
-\code{\link{cset.box}()},
-\code{\link{cset.fixed}()},
-\code{\link{cset.groups}()},
-\code{\link{cset.lo}()},
-\code{\link{cset.mu.target}()},
-\code{\link{cset.propcost}()},
-\code{\link{cset.sum}()},
-\code{\link{cset.turnover.hobbs}()},
-\code{\link{cset.turnover}()},
-\code{\link{propcost.modify}()},
-\code{\link{turnover.hobbs.modify}()},
-\code{\link{turnover.modify}()}
+Other constraints: \code{\link{cset.box}},
+  \code{\link{cset.fixed}}, \code{\link{cset.groups}},
+  \code{\link{cset.lo}}, \code{\link{cset.mu.target}},
+  \code{\link{cset.propcost}}, \code{\link{cset.sum}},
+  \code{\link{cset.turnover.hobbs}},
+  \code{\link{cset.turnover}},
+  \code{\link{propcost.modify}},
+  \code{\link{turnover.hobbs.modify}},
+  \code{\link{turnover.modify}}
 }
 \author{
 Kirk Li  \email{kirkli@stat.washington.edu}

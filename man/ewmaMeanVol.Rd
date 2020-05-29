@@ -4,18 +4,9 @@
 \alias{ewmaMeanVol}
 \title{Exponential Weighted Moving Average (EWMA) Mean Volitility}
 \usage{
-ewmaMeanVol(
-  x,
-  nstart = 10,
-  robMean = T,
-  robVol = T,
-  cc = 2.5,
-  lambdaMean = 0.9,
-  lambdaVol = 0.9,
-  Dyn = F,
-  lambdaMeanDyn = 0.7,
-  lambdaVolDyn = 0.7
-)
+ewmaMeanVol(x, nstart = 10, robMean = T, robVol = T, cc = 2.5,
+  lambdaMean = 0.9, lambdaVol = 0.9, Dyn = F, lambdaMeanDyn = 0.7,
+  lambdaVolDyn = 0.7)
 }
 \arguments{
 \item{x}{returns of the portfolio}

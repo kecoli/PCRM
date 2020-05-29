@@ -11,9 +11,6 @@ wtsOpt(r, c)
 
 \item{c}{}
 }
-\value{
-
-}
 \description{
 wtsOpt
 }

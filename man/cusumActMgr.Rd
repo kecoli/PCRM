@@ -4,17 +4,9 @@
 \alias{cusumActMgr}
 \title{Using Statistical Process Control to Monitor Active Management}
 \usage{
-cusumActMgr(
-  portfolioName,
-  benchmarkName,
-  ret_df,
-  upperIR = 0.5,
-  lowerIR = 0,
-  lambda_in = 0.1,
-  lambda_out = 0.2,
-  winsorize = 4,
-  filterStd = FALSE
-)
+cusumActMgr(portfolioName, benchmarkName, ret_df, upperIR = 0.5,
+  lowerIR = 0, lambda_in = 0.1, lambda_out = 0.2, winsorize = 4,
+  filterStd = FALSE)
 }
 \arguments{
 \item{portfolioName}{A character string with the name of the portfolio. Required, no default}

@@ -15,9 +15,6 @@ efrontplot.shiny(files, group, list.cset, list.arg)
 
 \item{list.arg}{}
 }
-\value{
-
-}
 \description{
 efrontplot.shiny
 }

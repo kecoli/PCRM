@@ -13,9 +13,6 @@ etl(R, alpha = 0.05, normalize = TRUE)
 
 \item{normalize}{}
 }
-\value{
-
-}
 \description{
 NORMALIZED (DEFAULT) AND NON-NORMALIZED ETL
 }

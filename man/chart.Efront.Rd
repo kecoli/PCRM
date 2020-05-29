@@ -4,19 +4,9 @@
 \alias{chart.Efront}
 \title{chart.Efront}
 \usage{
-chart.Efront(
-  returns,
-  pspec,
-  firstEfront = T,
-  gmv = T,
-  maxSR = T,
-  rf = 0,
-  xlim = NULL,
-  ylim = NULL,
-  xlab = NULL,
-  ylab = NULL,
-  n.portfolios = 10
-)
+chart.Efront(returns, pspec, firstEfront = T, gmv = T, maxSR = T,
+  rf = 0, xlim = NULL, ylim = NULL, xlab = NULL, ylab = NULL,
+  n.portfolios = 10)
 }
 \arguments{
 \item{returns}{}
@@ -40,9 +30,6 @@ chart.Efront(
 \item{ylab}{}
 
 \item{n.portfolios}{}
-}
-\value{
-
 }
 \description{
 chart.Efront
