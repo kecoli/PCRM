@@ -6,7 +6,7 @@
 #' @export
 #'
 #' @examples
-plotLSandRobustVHInew <- function (x) 
+plotLSandRobustVHI <- function (x) 
 {
   ret = x
   x = (ret[, 2] - ret[, 3]) * 100
