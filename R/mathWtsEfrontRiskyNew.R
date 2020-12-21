@@ -36,8 +36,8 @@ mathWtsEfrontRiskyNew <- function (returns, mu.efront, display.wts = T, digits =
     out
   }
 }
-returns = midcap.ts[,1:10]
-efront = mathEfrontRisky(returns, npoints = 10, display = F)
-mu.efront = efront$mu.efront
+# returns = midcap.ts[,1:10]
+# efront = mathEfrontRisky(returns, npoints = 10, display = F)
+# mu.efront = efront$mu.efront
 # mathWtsEfrontRisky(returns,mu.efront,display.wts = T,digits = 2)
 # END OF BAD CODE
