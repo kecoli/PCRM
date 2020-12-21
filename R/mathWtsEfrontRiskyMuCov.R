@@ -1,14 +1,8 @@
 mathWtsEfrontRiskyMuCov <- function (muRet,volRet,corrRet,mu.efront,efront.only = T,
                                      display.wts = T, npoints = 5, digits = NULL) 
 {
-  muRet = c(.10,.04,.02)
-  volRet = c(.20,.15,.10)
-  corrRet = diag(c(1,1,1))
-  npoints = 3
   efront = mathEfrontRiskyMuCov(muRet,volRet,corrRet, npoints = 3,display = F)
-  library(mpo)  # To make barplot.wts() available to mathWtsEfrontRiskyiMuCov()
   mu.efront = efront$mu
-  
   covRet = diag(volRet)%*%corrRet%*%diag(volRet)
   mu = muRet
   V = covRet
@@ -25,7 +19,7 @@ mathWtsEfrontRiskyMuCov <- function (muRet,volRet,corrRet,mu.efront,efront.only 
   n = length(mu.efront)
   a1 = matrix(rep(g1, n), ncol = n)
   a2 = g2 %*% mu.efront
-  .037*g2[,1]
+ # .037*g2[,1]
   wts.efront = a1 + a2
   wts.efront = as.data.frame(wts.efront)
   vol.efront = (1/cc + (cc/d) * (mu.efront - a/cc)^2)^0.5
@@ -45,13 +39,10 @@ mathWtsEfrontRiskyMuCov <- function (muRet,volRet,corrRet,mu.efront,efront.only 
     out}
 }
 
-# library(mpo)
-# source("mathEfrontRiskyMuCov.R")
-muRet = c(.10,.04,.02)
-volRet = c(.20,.15,.10)
-corrRet = diag(c(1,1,1))
-efront = mathEfrontRiskyMuCov(muRet,volRet,corrRet, npoints = 5,display = F)
-library(mpo)  # To make barplot.wts() available to mathWtsEfrontRiskyiMuCov()
-mu.efront = efront$mu
-mathWtsEfrontRiskyMuCov(muRet,volRet,corrRet,mu.efront,display.wts = F,digits = 3)
-mathWtsEfrontRiskyMuCov(muRet,volRet,corrRet,mu.efront,display.wts = T,digits = 3)
+# muRet = c(.10,.04,.02)
+# volRet = c(.20,.15,.10)
+#corrRet = diag(c(1,1,1))
+# efront = mathEfrontRiskyMuCov(muRet,volRet,corrRet, npoints = 5,display = F)
+# mu.efront = efront$mu
+# mathWtsEfrontRiskyMuCov(muRet,volRet,corrRet,mu.efront,display.wts = F,digits = 3)
+# mathWtsEfrontRiskyMuCov(muRet,volRet,corrRet,mu.efront,display.wts = T,digits = 3)
