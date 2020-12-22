@@ -4,8 +4,13 @@
 \alias{mathWtsEfrontRisky}
 \title{mathWtsEfrontRisky}
 \usage{
-mathWtsEfrontRisky(returns, mu.efront, bar.ylim = c(0, 1),
-  display.wts = T, digits = NULL)
+mathWtsEfrontRisky(
+  returns,
+  mu.efront,
+  bar.ylim = c(0, 1),
+  display.wts = T,
+  digits = NULL
+)
 }
 \arguments{
 \item{returns}{}
@@ -17,6 +22,9 @@ mathWtsEfrontRisky(returns, mu.efront, bar.ylim = c(0, 1),
 \item{display.wts}{}
 
 \item{digits}{}
+}
+\value{
+
 }
 \description{
 mathWtsEfrontRisky

@@ -17,6 +17,9 @@ muEst(r, mu0, sigma0, win_level = 4, lambda = 0.9)
 
 \item{lambda}{Exponential weighting constant (default: lambda = 0.9)}
 }
+\value{
+
+}
 \description{
 muEst returns a simple weighted average of the current return and the last period's return.
 }

@@ -4,8 +4,16 @@
 \alias{mathWtsEfrontRiskyMuCov}
 \title{mathWtsEfrontRiskyMuCov}
 \usage{
-mathWtsEfrontRiskyMuCov(muRet, volRet, corrRet, mu.efront,
-  efront.only = T, display.wts = T, npoints = 5, digits = NULL)
+mathWtsEfrontRiskyMuCov(
+  muRet,
+  volRet,
+  corrRet,
+  mu.efront,
+  efront.only = T,
+  display.wts = T,
+  npoints = 5,
+  digits = NULL
+)
 }
 \arguments{
 \item{muRet}{}
@@ -23,6 +31,9 @@ mathWtsEfrontRiskyMuCov(muRet, volRet, corrRet, mu.efront,
 \item{npoints}{}
 
 \item{digits}{}
+}
+\value{
+
 }
 \description{
 mathWtsEfrontRiskyMuCov

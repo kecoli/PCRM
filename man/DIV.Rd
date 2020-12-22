@@ -9,6 +9,9 @@ DIV(weights)
 \arguments{
 \item{weights}{}
 }
+\value{
+
+}
 \description{
 DIV is the function to calculate the diversification index for a set of portfolio weights. DIV is one minus the HHI index.
 }

@@ -1,3 +1,14 @@
+#' mathWtsEfrontRiskyNew
+#'
+#' @param returns 
+#' @param mu.efront 
+#' @param display.wts 
+#' @param digits 
+#'
+#' @return
+#' @export
+#'
+#' @examples
 mathWtsEfrontRiskyNew <- function (returns, mu.efront, display.wts = T, digits = NULL) 
 {
   V = var(returns)

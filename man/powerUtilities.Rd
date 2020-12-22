@@ -6,6 +6,9 @@
 \usage{
 powerUtilities()
 }
+\value{
+
+}
 \description{
 powerUtilities
 }

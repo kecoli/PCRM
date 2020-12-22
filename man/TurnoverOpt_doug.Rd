@@ -4,8 +4,14 @@
 \alias{TurnoverOpt_doug}
 \title{Specify turnover constraints using a version derived by Doug Martin}
 \usage{
-TurnoverOpt_doug(returns, mu.target = NULL, wts.initial, toc,
-  long.only = TRUE, printDandA = FALSE)
+TurnoverOpt_doug(
+  returns,
+  mu.target = NULL,
+  wts.initial,
+  toc,
+  long.only = TRUE,
+  printDandA = FALSE
+)
 }
 \arguments{
 \item{returns, }{stock returns in xts format.}
@@ -25,6 +31,9 @@ Specify turnover constraints using a version derived by Doug Martin
 }
 \details{
 use \code{table.Performance.pool} to check available metrics. recoded SharpeRatio
+}
+\seealso{
+
 }
 \author{
 Doug Martin, Kirk Li  \email{kirkli@stat.washington.edu}

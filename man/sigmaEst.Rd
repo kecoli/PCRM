@@ -4,8 +4,7 @@
 \alias{sigmaEst}
 \title{sigmaEst computes a EW estimate of volatility}
 \usage{
-sigmaEst(r, mu0, sigma0, win_level = 4, lambda_in = 0.9,
-  lambda_out = 0.8)
+sigmaEst(r, mu0, sigma0, win_level = 4, lambda_in = 0.9, lambda_out = 0.8)
 }
 \arguments{
 \item{r}{Current period return}
@@ -19,6 +18,9 @@ sigmaEst(r, mu0, sigma0, win_level = 4, lambda_in = 0.9,
 \item{lambda_in}{EW constant when the data seems consistent with the current estimate of volatility (default: 0.9)}
 
 \item{lambda_out}{EW constant when the data seems inconsistent with the current estimate of volatility (default: 0.8)}
+}
+\value{
+
 }
 \description{
 sigmaEst computes a EW estimate of volatility
