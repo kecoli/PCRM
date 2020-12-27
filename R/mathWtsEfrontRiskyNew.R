@@ -9,9 +9,9 @@
 #' @export
 #'
 #' @examples
-# This is just a dummy comment 
 mathWtsEfrontRiskyNew <- function (returns, mu.efront, display.wts = T, digits = NULL) 
 {
+  # This is just a dummy comment 
   V = var(returns)
   mu = apply(returns, 2, mean)
   n.assets = length(mu)
