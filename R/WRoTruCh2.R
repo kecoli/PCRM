@@ -1,3 +1,12 @@
+#' Title
+#'
+#' @param p 
+#' @param n 
+#'
+#' @return
+#' @export
+#'
+#' @examples
 consRockeCh2 <- function(p,n)
 {
   beta <- c(-6.1357, -1.0078, 0.81564)
@@ -13,6 +22,16 @@ consRockeCh2 <- function(p,n)
   }
 return(list(gamma = gamma, alpha = alpha))
 }
+#' Title
+#'
+#' @param tt 
+#' @param gamma 
+#' @param q 
+#'
+#' @return
+#' @export
+#'
+#' @examples
 WRoTruCh2 <- function(tt,gamma,q = 2)
 {
   ss <- (tt - 1)/gamma
