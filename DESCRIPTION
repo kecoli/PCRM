@@ -1,7 +1,7 @@
 Package: PCRM
 Type: Package
 Title: Companion to Portfolio Construction and Risk Management
-Version: 0.01
+Version: 0.02
 Date: 2019-03-14
 Author: Doug Martin <>, Thomas Philips <>, Bernd Scherer <>, Ke Li <kirkli@stat.washington.edu>
 Maintainer: Ke Li <kirkli@stat.washington.edu>
