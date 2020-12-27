@@ -9,6 +9,7 @@
 #' @export
 #'
 #' @examples
+# This is just a dummy comment 
 mathWtsEfrontRiskyNew <- function (returns, mu.efront, display.wts = T, digits = NULL) 
 {
   V = var(returns)
