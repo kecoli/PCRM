@@ -47,6 +47,7 @@ mathWtsEfrontRiskyNew <- function (returns, mu.efront, display.wts = T, digits =
     row.names(out) = rowNames
     out
   }
+  print(out)
 }
 # returns = midcap.ts[,1:10]
 # efront = mathEfrontRisky(returns, npoints = 10, display = F)
