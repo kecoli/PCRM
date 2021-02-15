@@ -1,14 +1,3 @@
-#' Title
-#'
-#' @param x 
-#' @param trim 
-#' @param na.rm 
-#' @param ... 
-#'
-#' @return
-#' @export
-#'
-#' @examples
 winsorMean <- function(x, trim = 0, na.rm = FALSE, ...) {
   if (!is.numeric(x) && !is.complex(x) && !is.logical(x)) {
     warning("argument is not numeric or logical: returning NA")

@@ -1,3 +1,14 @@
+#' This is code for plotting a point mass distribution
+#'
+#' @param r A vector of values for the plot x axis
+#' @param x1 Lower limite of plotting range
+#' @param x2 Upper limit of plotting range
+#'
+#' @return
+#' @export
+#'
+#' @examples
+#' edfPointMassFig(.005)
 edfPointMassFig <- function(r,x1 = -0.02,x2 = 0.02)
 {
 x1 = -0.02
@@ -16,4 +27,4 @@ segments(r,0,r,1,lty = 3)
 segments(r,1,x2,1,lwd = 2)
 points(r,1,pch = 20,cex = 1.5)
 }
-edfPointMassFig(.005)
+
