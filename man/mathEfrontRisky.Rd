@@ -4,13 +4,8 @@
 \alias{mathEfrontRisky}
 \title{mathEfrontRisky}
 \usage{
-mathEfrontRisky(
-  returns,
-  npoints = 100,
-  efront.only = T,
-  display = T,
-  digits = NULL
-)
+mathEfrontRisky(returns, npoints = 100, efront.only = T, display = T,
+  digits = NULL)
 }
 \arguments{
 \item{returns}{}
@@ -22,9 +17,6 @@ mathEfrontRisky(
 \item{display}{}
 
 \item{digits}{}
-}
-\value{
-
 }
 \description{
 mathEfrontRisky

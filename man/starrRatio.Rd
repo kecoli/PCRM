@@ -15,9 +15,6 @@ starrRatio(R, alpha = 0.05, normalize = TRUE, Rf = 0)
 
 \item{Rf}{}
 }
-\value{
-
-}
 \description{
 NORMALIZED (DEFAULT) AND NON-NORMALIZED STARR
 }

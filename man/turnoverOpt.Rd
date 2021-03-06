@@ -4,16 +4,8 @@
 \alias{turnoverOpt}
 \title{turnoverOpt}
 \usage{
-turnoverOpt(
-  returns,
-  mu.target = NULL,
-  wts.initial,
-  toc,
-  long.only = TRUE,
-  printD = F,
-  printA = F,
-  printout = T
-)
+turnoverOpt(returns, mu.target = NULL, wts.initial, toc,
+  long.only = TRUE, printD = F, printA = F, printout = T)
 }
 \arguments{
 \item{returns}{}
@@ -31,9 +23,6 @@ turnoverOpt(
 \item{printA}{}
 
 \item{printout}{}
-}
-\value{
-
 }
 \description{
 turnoverOpt

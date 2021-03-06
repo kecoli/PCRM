@@ -4,30 +4,22 @@
 \alias{cset.groups}
 \title{Constraint specifications}
 \usage{
-cset.groups(
-  returns = returns8,
-  group = c(1, 1, 1, 2, 3, 3, 4, 4),
-  upper.group = rep(0.2, 4),
-  lower.group = rep(-0.2, 4)
-)
+cset.groups(returns = returns8, group = c(1, 1, 1, 2, 3, 3, 4, 4),
+  upper.group = rep(0.2, 4), lower.group = rep(-0.2, 4))
 }
 \description{
 Constraint specifications
 }
 \seealso{
-Other constraints: 
-\code{\link{combine.cset}()},
-\code{\link{cset.box}()},
-\code{\link{cset.fixed}()},
-\code{\link{cset.lo}()},
-\code{\link{cset.mu.target}()},
-\code{\link{cset.propcost}()},
-\code{\link{cset.sum}()},
-\code{\link{cset.turnover.hobbs}()},
-\code{\link{cset.turnover}()},
-\code{\link{propcost.modify}()},
-\code{\link{turnover.hobbs.modify}()},
-\code{\link{turnover.modify}()}
+Other constraints: \code{\link{combine.cset}},
+  \code{\link{cset.box}}, \code{\link{cset.fixed}},
+  \code{\link{cset.lo}}, \code{\link{cset.mu.target}},
+  \code{\link{cset.propcost}}, \code{\link{cset.sum}},
+  \code{\link{cset.turnover.hobbs}},
+  \code{\link{cset.turnover}},
+  \code{\link{propcost.modify}},
+  \code{\link{turnover.hobbs.modify}},
+  \code{\link{turnover.modify}}
 }
 \author{
 Kirk Li  \email{kirkli@stat.washington.edu}

@@ -11,9 +11,6 @@ psiOpt(r, c)
 
 \item{c}{}
 }
-\value{
-
-}
 \description{
 psiOpt
 }

@@ -4,15 +4,8 @@
 \alias{barplotWts}
 \title{barplotWts}
 \usage{
-barplotWts(
-  wts.efront,
-  legend.text = NULL,
-  col = NULL,
-  ylab = NULL,
-  xlab = c("MU", "VOL"),
-  bar.ylim = NULL,
-  ...
-)
+barplotWts(wts.efront, legend.text = NULL, col = NULL, ylab = NULL,
+  xlab = c("MU", "VOL"), bar.ylim = NULL, ...)
 }
 \arguments{
 \item{wts.efront}{}
@@ -26,9 +19,6 @@ barplotWts(
 \item{xlab}{}
 
 \item{bar.ylim}{}
-}
-\value{
-
 }
 \description{
 barplotWts

@@ -9,9 +9,6 @@ plotLSandRobustDD(x)
 \arguments{
 \item{x}{}
 }
-\value{
-
-}
 \description{
 plotLSandRobustDD
 }

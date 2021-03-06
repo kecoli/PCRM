@@ -13,9 +13,6 @@ testFun(test, x, y)
 
 \item{y}{}
 }
-\value{
-
-}
 \description{
 this is a test
 }

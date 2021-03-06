@@ -4,20 +4,10 @@
 \alias{efrontPlot}
 \title{Plot Efficient Frontier of Mean Variance Optimization}
 \usage{
-efrontPlot(
-  returns,
-  cset = NULL,
-  mu.min = NULL,
-  mu.max = NULL,
-  rf = NULL,
-  npoints = 10,
-  wts.plot = T,
-  wts.xlab = "VOL",
-  printout = F,
-  bar.ylim = c(0, 2),
-  list.arg = NULL,
-  is.fancy = TRUE
-)
+efrontPlot(returns, cset = NULL, mu.min = NULL, mu.max = NULL,
+  rf = NULL, npoints = 10, wts.plot = T, wts.xlab = "VOL",
+  printout = F, bar.ylim = c(0, 2), list.arg = NULL,
+  is.fancy = TRUE)
 }
 \description{
 Plot Efficient Frontier of Mean Variance Optimization

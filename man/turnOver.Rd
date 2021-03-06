@@ -13,9 +13,6 @@ turnOver(wts, wtsInit = NULL, digits = NULL)
 
 \item{digits}{}
 }
-\value{
-
-}
 \description{
 turnOver
 }

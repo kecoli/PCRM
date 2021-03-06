@@ -4,15 +4,8 @@
 \alias{barplotWtsDoug}
 \title{Title}
 \usage{
-barplotWtsDoug(
-  wts.efront,
-  legend.text = NULL,
-  col = NULL,
-  ylab = NULL,
-  xlab = "VOL",
-  bar.ylim = NULL,
-  ...
-)
+barplotWtsDoug(wts.efront, legend.text = NULL, col = NULL,
+  ylab = NULL, xlab = "VOL", bar.ylim = NULL, ...)
 }
 \arguments{
 \item{wts.efront}{}
@@ -28,9 +21,6 @@ barplotWtsDoug(
 \item{bar.ylim}{}
 
 \item{...}{}
-}
-\value{
-
 }
 \description{
 Title
