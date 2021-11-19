@@ -4,11 +4,25 @@
 \alias{mathEfrontRiskyMuCov}
 \title{Title}
 \usage{
-mathEfrontRiskyMuCov(muRet, volRet, corrRet, npoints = 100,
-  display = T, efront.only = T, digits = NULL)
+mathEfrontRiskyMuCov(
+  muRet,
+  volRet,
+  corrRet,
+  npoints = 100,
+  display = T,
+  efront.only = T,
+  digits = NULL
+)
 
-mathEfrontRiskyMuCov(muRet, volRet, corrRet, npoints = 100,
-  display = T, efront.only = T, digits = NULL)
+mathEfrontRiskyMuCov(
+  muRet,
+  volRet,
+  corrRet,
+  npoints = 100,
+  display = T,
+  efront.only = T,
+  digits = NULL
+)
 }
 \arguments{
 \item{muRet}{}
@@ -26,20 +40,11 @@ mathEfrontRiskyMuCov(muRet, volRet, corrRet, npoints = 100,
 \item{digits}{}
 
 \item{print}{}
+}
+\value{
 
-\item{muRet}{}
 
-\item{volRet}{}
 
-\item{corrRet}{}
-
-\item{npoints}{}
-
-\item{display}{}
-
-\item{efront.only}{}
-
-\item{digits}{}
 }
 \description{
 Title

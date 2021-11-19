@@ -17,6 +17,9 @@ mathWtsEfrontRiskyMuCov(muRet, volRet, corrRet, mu.efront, digits = NULL)
 
 \item{digits}{}
 }
+\value{
+
+}
 \description{
 Title
 }

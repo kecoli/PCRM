@@ -9,6 +9,9 @@ plotLSandRobustVHI(x)
 \arguments{
 \item{x}{}
 }
+\value{
+
+}
 \description{
 plotLSandRobustVHI
 }

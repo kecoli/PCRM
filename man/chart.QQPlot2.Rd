@@ -5,13 +5,31 @@
 \title{Plot a QQ chart that adapts to different distribution types
 modified from \code{\link{chart.QQPlot}}}
 \usage{
-chart.QQPlot2(R, distribution = "norm", ylab = NULL,
-  xlab = paste(distribution, "Quantiles"), main = NULL,
-  las = par("las"), envelope = FALSE, labels = FALSE, col = c(1,
-  4), lwd = 2, pch = 1, cex = 1, line = c("quartiles", "robust",
-  "none"), element.color = "darkgray", cex.axis = 0.8,
-  cex.legend = 0.8, cex.lab = 1, cex.main = 1, xaxis = TRUE,
-  yaxis = TRUE, ylim = NULL, distributionParameter = NULL, ...)
+chart.QQPlot2(
+  R,
+  distribution = "norm",
+  ylab = NULL,
+  xlab = paste(distribution, "Quantiles"),
+  main = NULL,
+  las = par("las"),
+  envelope = FALSE,
+  labels = FALSE,
+  col = c(1, 4),
+  lwd = 2,
+  pch = 1,
+  cex = 1,
+  line = c("quartiles", "robust", "none"),
+  element.color = "darkgray",
+  cex.axis = 0.8,
+  cex.legend = 0.8,
+  cex.lab = 1,
+  cex.main = 1,
+  xaxis = TRUE,
+  yaxis = TRUE,
+  ylim = NULL,
+  distributionParameter = NULL,
+  ...
+)
 }
 \arguments{
 \item{R}{an xts, vector, matrix, data frame, timeSeries or zoo object of

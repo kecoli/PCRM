@@ -11,6 +11,9 @@ ellipsesPlotNewKjell.covfm(x, ...)
 
 \item{...}{}
 }
+\value{
+
+}
 \description{
 Title
 }

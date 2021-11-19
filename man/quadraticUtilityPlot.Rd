@@ -6,6 +6,9 @@
 \usage{
 quadraticUtilityPlot()
 }
+\value{
+
+}
 \description{
 Title
 }

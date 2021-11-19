@@ -4,13 +4,27 @@
 \alias{chart.Boxplot2}
 \title{box whiskers plot wrapper}
 \usage{
-chart.Boxplot2(R, horizontal = TRUE, names = TRUE, as.Tufte = FALSE,
-  as.Notch = FALSE, sort.by = NULL, sort.base = NULL,
-  sort.ascending = FALSE, colorset = "black", symbol.color = "red",
-  mean.symbol = 1, median.symbol = "|", outlier.symbol = 1,
-  show.data = NULL, add.mean = TRUE, xlab = "Return",
-  main = "Return Distribution Comparison", element.color = "darkgray",
-  ...)
+chart.Boxplot2(
+  R,
+  horizontal = TRUE,
+  names = TRUE,
+  as.Tufte = FALSE,
+  as.Notch = FALSE,
+  sort.by = NULL,
+  sort.base = NULL,
+  sort.ascending = FALSE,
+  colorset = "black",
+  symbol.color = "red",
+  mean.symbol = 1,
+  median.symbol = "|",
+  outlier.symbol = 1,
+  show.data = NULL,
+  add.mean = TRUE,
+  xlab = "Return",
+  main = "Return Distribution Comparison",
+  element.color = "darkgray",
+  ...
+)
 }
 \arguments{
 \item{R}{an xts, vector, matrix, data frame, timeSeries or zoo object of

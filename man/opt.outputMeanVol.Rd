@@ -15,6 +15,9 @@ opt.outputMeanVol(opt, returns, digits = NULL, names = NULL)
 
 \item{names}{}
 }
+\value{
+
+}
 \description{
 opt.outputMeanVol
 }

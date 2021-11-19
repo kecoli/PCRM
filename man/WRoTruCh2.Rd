@@ -13,6 +13,9 @@ WRoTruCh2(tt, gamma, q = 2)
 
 \item{q}{}
 }
+\value{
+
+}
 \description{
 Title
 }

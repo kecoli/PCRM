@@ -9,17 +9,16 @@ edfPointMassFig(r, x1 = -0.02, x2 = 0.02)
 edfPointMassFig(r, x1 = -0.02, x2 = 0.02)
 }
 \arguments{
-\item{r}{}
-
-\item{x1}{}
-
-\item{x2}{}
-
 \item{r}{A vector of values for the plot x axis}
 
 \item{x1}{Lower limite of plotting range}
 
 \item{x2}{Upper limit of plotting range}
+}
+\value{
+
+
+
 }
 \description{
 Title

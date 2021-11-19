@@ -4,10 +4,21 @@
 \alias{mathEfrontCashRisky}
 \title{mathEfrontCashRisky}
 \usage{
-mathEfrontCashRisky(returns, rf = 0.005, scalex = 1.2, scaley = 2,
-  display.stocks = T, stock.names = T, risk.tol = F, npoints = 10,
-  plot.efront = T, wts.plot = T, equal.wts = T, bar.ylim = c(0, 1),
-  digits = NULL)
+mathEfrontCashRisky(
+  returns,
+  rf = 0.005,
+  scalex = 1.2,
+  scaley = 2,
+  display.stocks = T,
+  stock.names = T,
+  risk.tol = F,
+  npoints = 10,
+  plot.efront = T,
+  wts.plot = T,
+  equal.wts = T,
+  bar.ylim = c(0, 1),
+  digits = NULL
+)
 }
 \arguments{
 \item{returns}{}
@@ -35,6 +46,9 @@ mathEfrontCashRisky(returns, rf = 0.005, scalex = 1.2, scaley = 2,
 \item{bar.ylim}{}
 
 \item{digits}{}
+}
+\value{
+
 }
 \description{
 mathEfrontCashRisky
